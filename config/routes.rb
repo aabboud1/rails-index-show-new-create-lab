@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   get "/coupons/new", to: "coupon#new"
   
   get "/coupons/:id", to: "coupon#show", as: "coupon"
-  post "/coupons", to: "coupon#create", as: "add"
+  post "/coupons", to: "coupon#create"
 
 
 
