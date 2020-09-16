@@ -1,0 +1,9 @@
+
+
+<%= form_for @coupon do |f| %>
+    <%= f.label :coupon_name, "Coupon Name" %>
+    <%= f.text_field :coupon_name %>
+    <%= f.label :store, "Store" %>
+    <%= f.text_field :store %>
+    <%= f.submit %>
+<% end %>
